@@ -1,6 +1,7 @@
 const audio = document.getElementById("myAudio");
 const btn = document.getElementById("playPauseBtn");
 
+audio.play();
 btn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
