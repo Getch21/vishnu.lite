@@ -50,6 +50,7 @@ a:hover {
 
 section {
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 .text-secondary {
@@ -104,4 +105,19 @@ section {
 
 .wobble span.upscale {
   animation: upscale 0.5s 1;
+}
+
+
+
+.background-video {
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
 }
